@@ -1,0 +1,43 @@
+// Program 1: every declared keyword, arrays, numbers, strings and operators.
+class TokenDemo {
+    public static void main() {
+        int age = 20, _count = 0;
+        float grade = 85.5;
+        boolean passed = true;
+        boolean failed = false;
+        char initial = 'A';
+        String name = "Ali";
+        String escaped = "He said \"Hello\" and left.";
+        String markers = "// and /* are literal text */";
+        int[] marks;
+        marks[0] = age;
+        /* A comment may span
+           several physical lines. */
+        for (int i = 0; i < 3; i = i + 1) {
+            age = age + 1;
+        }
+        while (age <= 25 && !failed) {
+            age = age + 1;
+        }
+        if (grade >= 50 || passed == true) {
+            grade = (grade + 5) * 2 / 2 - 1;
+        } else {
+            grade = grade % 10;
+        }
+        if (age != 0) { passed = age > 0; }
+        TokenDemo.show(name);
+        return;
+    }
+}
+
+// Program 2: names are case-sensitive; main is an ordinary identifier.
+class Names {
+    public void check() {
+        int count = 0;
+        int Count = 1;
+        int total_marks = count + Count;
+        String empty = "";
+        char singleQuoted = 'several characters are STRING too';
+        return;
+    }
+}

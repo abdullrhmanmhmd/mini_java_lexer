@@ -1,0 +1,11 @@
+// This file intentionally contains recoverable lexical errors.
+int x = 10 @ 5;
+1name = 5;
+int 12_count = 0;
+float 25.5grade = 1;
+String name = "Ali;
+int recovered = 7;
+student@id = 2;
+boolean ready = true & false;
+String broken = 'not closed
+return;

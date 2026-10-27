@@ -1,0 +1,3 @@
+class Demo {
+    /* This comment does not end
+    int hidden = 5;
