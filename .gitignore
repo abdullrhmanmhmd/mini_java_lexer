@@ -1,0 +1,138 @@
+# =============================================================================
+# Python Bytecode, Distribution & Packaging Artifacts
+# =============================================================================
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+*.pyd
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+
+# =============================================================================
+# Testing, Coverage & Static Analysis Caches
+# =============================================================================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+cython_debug/
+
+# =============================================================================
+# Local Environment Variables, Secrets & Certificates
+# =============================================================================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# =============================================================================
+# Container, Logs & Build Outputs
+# =============================================================================
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+.docker/
+docker-compose.override.yml
+out/
+tmp/
+temp/
+.cache/
+
+# =============================================================================
+# OS & IDE / Editor Specific Files
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =============================================================================
+# Data, Databases & ML Model Checkpoints
+# =============================================================================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.tflite
+*.pb
+*.pkl
+*.pickle
+*.joblib
+wandb/
+mlruns/
