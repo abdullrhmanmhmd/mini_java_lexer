@@ -20,7 +20,6 @@ The lexer prints tokens, an identifier symbol table, and errors. The first two i
 
 - `lexer.py`: the scanner and command-line entry point.
 - `inputs/`: the assignment sample, additional valid programs, and error examples.
-- `test_lexer.py`: automated tests.
 - `report.pdf`: the required brief report; `report.md` is its editable text version.
 
 ## Use in Phase 2
